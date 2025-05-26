@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "risjadsonland_abouts",
+  "info": {
+    "singularName": "risjadsonland-about",
+    "pluralName": "risjadsonland-abouts",
+    "displayName": "risjadsonland_about",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "RisjadsonLand_desc": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

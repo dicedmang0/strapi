@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experience_pages",
+  "info": {
+    "singularName": "experience-page",
+    "pluralName": "experience-pages",
+    "displayName": "Experience-page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Region_name": {
+      "type": "string",
+      "required": true
+    },
+    "Experience_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "Experience_list": {
+      "displayName": "name",
+      "type": "component",
+      "repeatable": true,
+      "component": "city.name",
+      "required": true
+    }
+  }
+}

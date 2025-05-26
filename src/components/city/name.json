@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_city_names",
+  "info": {
+    "displayName": "name"
+  },
+  "options": {},
+  "attributes": {
+    "Experience_list": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

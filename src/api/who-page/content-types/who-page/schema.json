@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "who_pages",
+  "info": {
+    "singularName": "who-page",
+    "pluralName": "who-pages",
+    "displayName": "who-page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    },
+    "Bio": {
+      "type": "blocks",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "director",
+        "commissioner"
+      ],
+      "required": true
+    }
+  }
+}

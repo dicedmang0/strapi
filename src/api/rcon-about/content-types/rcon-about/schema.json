@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "rcon_abouts",
+  "info": {
+    "singularName": "rcon-about",
+    "pluralName": "rcon-abouts",
+    "displayName": "Rcon_about"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Rcon_desc": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

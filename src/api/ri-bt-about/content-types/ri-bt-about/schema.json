@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "ri_bt_abouts",
+  "info": {
+    "singularName": "ri-bt-about",
+    "pluralName": "ri-bt-abouts",
+    "displayName": "RiBT_about"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "RiBT_desc": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_vision_texts",
+  "info": {
+    "singularName": "home-vision-text",
+    "pluralName": "home-vision-texts",
+    "displayName": "homeVisionText",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "VisionDesc": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

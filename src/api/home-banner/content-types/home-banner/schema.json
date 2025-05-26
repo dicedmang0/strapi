@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_banners",
+  "info": {
+    "singularName": "home-banner",
+    "pluralName": "home-banners",
+    "displayName": "home-banner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "banner_text": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}
