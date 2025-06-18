@@ -12,7 +12,7 @@
   },
   "attributes": {
     "VisionDesc": {
-      "type": "string",
+      "type": "text",
       "required": true
     }
   }

@@ -457,7 +457,7 @@ export interface ApiHomeVisionTextHomeVisionText
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    VisionDesc: Schema.Attribute.String & Schema.Attribute.Required;
+    VisionDesc: Schema.Attribute.Text & Schema.Attribute.Required;
   };
 }
 
